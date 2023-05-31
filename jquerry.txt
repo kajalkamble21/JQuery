@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Mobile Website</title>
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</head>
+<body>
+    <div data-role="page">
+        <div data-role="header">
+            <h1>Simple Mobile Website</h1>
+        </div>
+        <div data-role="content">
+            <p>Welcome to our simple mobile website!</p>
+            <ul data-role="listview" data-inset="true">
+                <li><a href="#page1">Page 1</a></li>
+                <li><a href="#page2">Page 2</a></li>
+            </ul>
+        </div>
+        <div data-role="footer">
+            <h4>© 2023 Simple Mobile Website</h4>
+        </div>
+    </div>
+
+    <div data-role="page" id="page1">
+        <div data-role="header">
+            <a href="#" data-rel="back" data-icon="arrow-l">Back</a>
+            <h1>Page 1</h1>
+        </div>
+        <div data-role="content">
+            <p>This is Page 1 content.</p>
+        </div>
+    </div>
+
+    <div data-role="page" id="page2">
+        <div data-role="header">
+            <a href="#" data-rel="back" data-icon="arrow-l">Back</a>
+            <h1>Page 2</h1>
+        </div>
+        <div data-role="content">
+            <p>This is Page 2 content.</p>
+        </div>
+    </div>
+</body>
+</html>
